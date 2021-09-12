@@ -35,6 +35,55 @@ section{
 	max-width: 500px;
 }
 
+/* Formulario */
+.container-contacto{
+
+	margin-top: 50px;
+}
+
+.container-contacto h1{
+
+	text-align: center;
+	font-size: 40px;
+	padding: 30px;
+}
+
+.form-group{
+
+	margin: 20px;
+}
+
+
+.form-floating #floatingInput:focus, #floatingSelect:focus, #floatingTextarea:focus{
+
+border-bottom: 2px solid blue;
+transition: all 300ms;
+}
+
+
+.form-floating > .form-control,
+.form-floating > .form-select {
+height: calc(4rem + 2px);
+line-height: 1.25;
+}
+
+#btnEnviar{
+
+	width: 100%;
+	margin-top: 20px;
+}
+
+.form-check{
+
+	margin: 20px;
+	font-size: 18px;
+}
+
+.form-check-label{
+
+	color: rgb(75, 75, 75);
+}
+
  @media (min-width: 240px) {
     .carousel-caption p {
       margin-bottom: 20px;
