@@ -1,30 +1,35 @@
 <!DOCTYPE html>
 <html lang="es">
+
 	<head>
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Reto #1 | Grupo 5</title>
 		<!-- Bootstrap CSS -->
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous" />
 		<!-- Bootstrap JS -->
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous" defer></script>
 		<script src="https://kit.fontawesome.com/734f05f94a.js" crossorigin="anonymous" defer></script>
 		<!-- Custom CSS -->
-    <link href="css/style.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet" />
 	</head>
-	<body>
+
+	<body  data-bs-spy="scroll">
 		<header>
-			<nav class="navbar navbar-expand-lg navbar-light">
+			<nav class="navbar navbar-expand-xl fixed-top navbar-light bg-dark">
 				<div class="container">
-					<a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo" width="75">PizzaCO</a>
+					<a class="navbar-brand" href="#">
+						<img src="images/logo.png" alt="logo" width="75" />
+						PizzaCO
+					</a>
 					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
 					</button>
 					<div class="collapse navbar-collapse" id="navbarSupportedContent">
 						<ul class="navbar-nav me-auto mb-2 mb-lg-0">
 							<li class="nav-item">
-								<a class="nav-link" href="#">Inicio</a>
+								<a class="nav-link" href="#home">Inicio</a>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link" href="#about">Quienes somos</a>
@@ -45,7 +50,9 @@
 								<a class="nav-link" href="#"><i class="fab fa-facebook"></i></a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#"><i class="fab fa-instagram"></i></a>
+								<a class="nav-link" href="#">
+									<i class="fab fa-instagram"></i>
+								</a>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link" href="#"><i class="fab fa-twitter"></i></a>
@@ -69,24 +76,30 @@
 					</div>
 					<div class="carousel-inner">
 						<div class="carousel-item active">
-							<img src="images/slide1.jpg" width="200" class="d-block w-100" alt="...">
+							<img src="images/slide1.jpg" width="200" class="d-block w-100" alt="..." />
 							<div class="carousel-caption d-none d-md-block">
 								<h5>First slide label</h5>
-								<p>Some representative placeholder content for the first slide.</p>
+								<p>
+									Some representative placeholder content for the first slide.
+								</p>
 							</div>
 						</div>
 						<div class="carousel-item">
-							<img src="/images/slide2.jpg" class="d-block w-100" alt="...">
+							<img src="/images/slide2.jpg" class="d-block w-100" alt="..." />
 							<div class="carousel-caption d-none d-md-block">
 								<h5>Second slide label</h5>
-								<p>Some representative placeholder content for the second slide.</p>
+								<p>
+									Some representative placeholder content for the second slide.
+								</p>
 							</div>
 						</div>
 						<div class="carousel-item">
-							<img src="/images/slide3.jpg" class="d-block w-100" alt="...">
+							<img src="/images/slide3.jpg" class="d-block w-100" alt="..." />
 							<div class="carousel-caption d-none d-md-block">
 								<h5>Third slide label</h5>
-								<p>Some representative placeholder content for the third slide.</p>
+								<p>
+									Some representative placeholder content for the third slide.
+								</p>
 							</div>
 						</div>
 					</div>
@@ -99,83 +112,230 @@
 						<span class="visually-hidden">Next</span>
 					</button>
 				</div>
-				<!-- * Sección para la presentación del restaurante, tipo de comida, concepto, entre otros.
-* Sección con los platos destacados y enlace al menú completo.
-* Sección con servicios especiales para eventos y actividades grupales.
-* Sección de testimonios de algunos clientes, imagen y frase corta. -->
 
-				<!-- Presentacion del restaurante -->
-					<div class="container">
-
+				<!-- Sección para la presentación del restaurante, tipo de comida, concepto, entre otros. -->
+				<section id="home">
+					<div class="container mt-5">
 						<h1>PizzaCO</h1>
-						<p>Restaurante de </p>
-
-			  <!-- Platos destacados -->
-				<div class="row">
-					<div class="col">
-						<div class="card" style="width: 18rem;">
-							<img src="/images/platos-destacados/perro-tocineta-guacamole-maduro-1200x900.jpg" height="200px" class="card-img-top" alt="...">
-							<div class="card-body">
-								<h5>Perro pama</h5>
-								<p class="card-text">Perro pama con tocineta doble, con plátano maduro, salchicha americana, pan artesanal, salsa de la casa, lechuga, tomate, cebolla grille, y cabello de ángel</p>
-								<a href="#" class="btn btn-primary" style="width: 100%;">$4</a>
+						<p>Un restaurante de comida rápida en el que ofrecemos exquisitos platos, elaborados con la más alta calidad culinaria
+							por nuestros chefs.
+						</p>
+						<hr>
+					</div>
+				</section>
+				
+				<!-- Sección con los platos destacados y enlace al menú completo. -->
+				<div class="container mt-5">
+					<div class="row">
+						<h2>Nuestros platos destacados</h2>
+						<div class="col">
+							<div class="card" >
+								<img src="/images/platos-destacados/perro-tocineta-guacamole-maduro-1200x900.jpg" height="200px" class="card-img-top" alt="..." />
+								<div class="card-body">
+									<h5>Perro pama</h5>
+									<p class="card-text">
+										Perro pama con tocineta doble, con plátano maduro, salchicha
+										americana, pan artesanal, salsa de la casa, lechuga, tomate,
+										cebolla grille, y cabello de ángel
+									</p>
+									<a href="#" class="btn btn-primary" style="width: 100%">$4</a>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="/images/platos-destacados/LC25eDtCT_1256x620__1.jpg" height="200px" class="card-img-top" alt="..." />
+								<div class="card-body">
+									<h5>Hamburguesa argentina</h5>
+									<p class="card-text">
+										Elaborada con pan artesanal, 150 gr de carne, 100 gr de
+										pechuga de pollo apanado, chorizo, chimichurri y salsa de la
+										casa
+									</p>
+									<a href="#" class="btn btn-primary" style="width: 100%">$4</a>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card" >
+								<img src="/images/platos-destacados/alitas.jpg" height="200px" class="card-img-top" alt="..." />
+								<div class="card-body">
+									<h5>Alitas BBQ</h5>
+									<p class="card-text">
+										Deliciosas alitas bbq acompañadas de papa a la francesa o
+										croquetas de yuca, puedes adicionar le salsa búfalo o miel
+										mostaza
+									</p>
+									<a href="#" class="btn btn-primary" style="width: 100%">$4</a>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card" >
+								<img src="/images/platos-destacados/menu.jpeg" class="card-img-top" alt="..." />
+								<div class="card-body">
+									<a href="#menu" class="btn btn-dark" style="width: 100%">
+										Ver menú completo
+									</a>
+								</div>
 							</div>
 						</div>
 					</div>
-					<div class="col">
-						<div class="card" style="width: 18rem;">
-							<img src="/images/platos-destacados/LC25eDtCT_1256x620__1.jpg" height="200px" class="card-img-top" alt="...">
-							<div class="card-body">
-								<h5>Hamburguesa argentina</h5>
-								<p class="card-text">Elaborada con pan artesanal, 150 gr de carne, 100 gr de pechuga de pollo apanado, chorizo, chimichurri y salsa de la casa</p>
-								<a href="#" class="btn btn-primary" style="width: 100%;">$4</a>
+					<hr>
+				</div>
+				<!-- Sección con servicios especiales para eventos y actividades grupales. -->
+				<section>
+					<div class="container">
+						<div class="row">
+							<div class="col-12 col-lg-5">
+								<h2>Servicios especiales para eventos</h2>
+									<img src="/images/eventos/foto3@2x.png" class="img-fluid" alt="">
+								<p>Contamos con 3 servicios diferentes para la celebración de tu evento.</p>
+							</div>
+							<div class="col-12 col-lg-7">
+								<div class="accordion" id="accordionExample">
+									<div class="accordion-item">
+										<h2 class="accordion-header" id="headingOne">
+											<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+												Cumpleaños
+											</button>
+										</h2>
+										<div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+											<div class="accordion-body">
+												¿Se acerca tu <strong>cumpleaños</strong> y no sabes qué plan hacer para disfrutar con tus familiares y amigos? Podemos darte una buena alternativa: comer algo sumamente delicioso y disfrutar de un ambiente acogedor y familiar en PizzaCo.
+												
+											</div>
+										</div>
+									</div>
+									<div class="accordion-item">
+										<h2 class="accordion-header" id="headingTwo">
+											<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+												Bodas
+											</button>
+										</h2>
+										<div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+											<div class="accordion-body">
+												<strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+											</div>
+										</div>
+									</div>
+									<div class="accordion-item">
+										<h2 class="accordion-header" id="headingThree">
+											<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+												Aniversarios
+											</button>
+										</h2>
+										<div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+											<div class="accordion-body">
+												<strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+											</div>
+										</div>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
-					<div class="col">
-						<div class="card" style="width: 18rem;">
-							<img src="/images/platos-destacados/alitas.jpg" height="200px" class="card-img-top" alt="...">
-							<div class="card-body">
-								<h5>Alitas BBQ</h5>
-								<p class="card-text">Deliciosas alitas bbq acompañadas de papa a la francesa o croquetas de yuca, puedes adicionar le salsa búfalo o miel mostaza</p>
-								<a href="#" class="btn btn-primary" style="width: 100%;">$4</a>
+				</section>
+				<!-- Sección de testimonios de algunos clientes, imagen y frase corta. -->
+				<section>
+					<div class="container">
+						<div class="row">
+							<h2>Testimonios de clientes</h2>
+							<div class="col-3">
+								<div class="card" >
+									<img src="/images/testimonios/testimonio1.png" class="img-thumbnail" class="card-img-top" alt="..." />
+									<div class="card-body">
+										<p class="card-text">
+											<figure class="text-center">
+												<blockquote class="blockquote">
+													<p>Es un lugar increíble, la comida y la atención son inmejorables.</p>
+												</blockquote>
+												<figcaption class="blockquote-footer">Marco Antonio</figcaption>
+											</figure>
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-3">
+								<div class="card" >
+									<img src="/images/testimonios/testimonio2.png" class="img-thumbnail" class="card-img-top" alt="..." />
+									<div class="card-body">
+										<p class="card-text">
+											<figure class="text-center">
+												<blockquote class="blockquote">
+													<p>Es un lugar increíble, la comida y la atención son inmejorables.</p>
+												</blockquote>
+												<figcaption class="blockquote-footer">Marco Antonio</figcaption>
+											</figure>
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-3">
+								<div class="card" >
+									<img src="/images/testimonios/testimonio3.png" class="img-thumbnail" class="card-img-top" alt="..." />
+									<div class="card-body">
+										<p class="card-text">
+											<figure class="text-center">
+												<blockquote class="blockquote">
+													<p>Es un lugar increíble, la comida y la atención son inmejorables.</p>
+												</blockquote>
+												<figcaption class="blockquote-footer">Marco Antonio</figcaption>
+											</figure>
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-3">
+								<div class="card" >
+									<img src="/images/testimonios/testimonio4.png" class="img-thumbnail" class="card-img-top" alt="..." />
+									<div class="card-body">
+										<p class="card-text">
+											<figure class="text-center">
+												<blockquote class="blockquote">
+													<p>Es un lugar increíble, la comida y la atención son inmejorables.</p>
+												</blockquote>
+												<figcaption class="blockquote-footer">Marco Antonio</figcaption>
+											</figure>
+										</p>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
-					<div class="col">
-						<div class="card" style="width: 18rem;">
-							<img src="/images/platos-destacados/menu.jpeg" class="card-img-top" alt="...">
-							<div class="card-body">
-								<a href="#" class="btn btn-dark" style="width: 100%;">Ver menú completo</a>
-							</div>
+				</section>
+			</section>
+			<!-- sobre nosotros -->
+			<section id="about">
+				<div class="container">
+					<h1>Sobre nosotros</h1>
+					<h2>PizzaCO</h2>
+					<div class="row">
+						<div class="col-12 col-lg-4">
+							<img src="/images/logo.png" class="img-thumbnail" alt="">
+						</div>
+						<div class="col-12 col-lg-8">
+							<p>Domino's Pizza es una empresa de comida rápida estadounidense de restaurantes, especializada en la elaboración de pizzas. Con sede en Ann Arbor, Michigan. Fundada por Tom Monaghan en 1960, quien había abierto su primera pizzería en Ypsilanti (Míchigan). En la actualidad cuenta con más de 14 500 establecimientos (más de 5000 solo en Estados Unidos, la mayor del país superando a Pizza Hut y Little Caesars) y está establecida en 89 países y territorios.1​2​ El máximo accionista desde 1998 es el fondo de capital riesgo Bain Capital.</p>
 						</div>
 					</div>
 				</div>
-				
-			</div>
-			</section>
-			<section id="about">
-				<h1>Sobre nosotros</h1>
-				
-			</section>
+				</section>
 			<section id="menu">
 				<h1>Menú</h1>
-				
 			</section>
 			<section id="services">
 				<h1>Servicios</h1>
-				
 			</section>
 			<section id="contact">
 				<h1>Contáctenos</h1>
-				
 			</section>
 			<section id="map">
 				<h1>Mapa del sitio</h1>
-				
 			</section>
 		</main>
-		<footer>
-		</footer>
+		<footer></footer>
+
+		<script src="/js/index.js"></script>
 	</body>
+
 </html>
