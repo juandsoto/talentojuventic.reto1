@@ -9,5 +9,45 @@ body{
 }
 
 header{
-	color: #fff;
+	background-color: #aaa;
+	color: white;
+	height: 100px;
+	width: 100%;
+	left: 0;
+	top: 0;
+	position: fixed;
 }
+
+section{
+	padding-top: 100px;
+}
+
+.carousel-item > img {
+    min-width: 100%;
+    height: 800px;
+  }
+
+ @media (min-width: 240px) {
+    .carousel-caption p {
+      margin-bottom: 20px;
+       /*El font-size nos ayuda asignarle un tamaño al elemento*/
+      font-size: 20px;
+      /*El line-height establece la altura de una casilla remarcada por líneas.*/
+      line-height: 1.4;
+    }
+		.carousel-item > img {
+			min-width: 100%;
+			height: 350px;
+		}
+
+  }
+
+  @media (min-width: 1000px) {
+    .bd-placeholder-img-lg {
+      font-size: 56px;
+    }
+		.carousel-item > img {
+			min-width: 100%;
+			height: 600px;
+		}
+  }
