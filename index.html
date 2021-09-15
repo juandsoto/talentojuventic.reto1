@@ -15,7 +15,7 @@
 		<link href="css/style.css" rel="stylesheet" />
 	</head>
 
-	<body data-bs-spy="scroll">
+	<body>
 		<header>
 			<nav class="navbar navbar-expand-xl fixed-top navbar-light bg-dark">
 				<div class="container">
@@ -29,7 +29,7 @@
 					<div class="collapse navbar-collapse" id="navbarSupportedContent">
 						<ul class="navbar-nav me-auto mb-2 mb-lg-0">
 							<li class="nav-item">
-								<a class="nav-link" href="#home">Inicio</a>
+								<a class="nav-link" href="#">Inicio</a>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link" href="#about">Quienes somos</a>
@@ -66,8 +66,9 @@
 			</nav>
 		</header>
 		<main>
-			<!-- Carousel -->
+			<!-- inicio -->
 			<section id="#">
+				<!-- Carousel -->
 				<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
 					<div class="carousel-indicators">
 						<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -112,22 +113,19 @@
 						<span class="visually-hidden">Next</span>
 					</button>
 				</div>
-
 				<!-- Sección para la presentación del restaurante, tipo de comida, concepto, entre otros. -->
-				<section id="home">
 					<div class="container mt-5">
 						<h1>PizzaCO</h1>
+						<hr>
 						<p>Un restaurante de comida rápida en el que ofrecemos exquisitos platos, elaborados con la más alta calidad culinaria
 							por nuestros chefs.
 						</p>
-						<hr>
 					</div>
-				</section>
-
 				<!-- Sección con los platos destacados y enlace al menú completo. -->
 				<div class="container mt-5">
 					<div class="row">
 						<h2>Nuestros platos destacados</h2>
+						<hr>
 						<div class="col">
 							<div class="card">
 								<img src="/images/platos-destacados/perro-tocineta-guacamole-maduro-1200x900.jpg" height="200px" class="card-img-top" alt="..." />
@@ -138,7 +136,7 @@
 										americana, pan artesanal, salsa de la casa, lechuga, tomate,
 										cebolla grille, y cabello de ángel
 									</p>
-									<a href="#" class="btn btn-primary" style="width: 100%">$4</a>
+									<a href="#" class="btn btn-primary" style="width: 100%">$12.000</a>
 								</div>
 							</div>
 						</div>
@@ -152,7 +150,7 @@
 										pechuga de pollo apanado, chorizo, chimichurri y salsa de la
 										casa
 									</p>
-									<a href="#" class="btn btn-primary" style="width: 100%">$4</a>
+									<a href="#" class="btn btn-primary" style="width: 100%">$17.000</a>
 								</div>
 							</div>
 						</div>
@@ -166,7 +164,7 @@
 										croquetas de yuca, puedes adicionar le salsa búfalo o miel
 										mostaza
 									</p>
-									<a href="#" class="btn btn-primary" style="width: 100%">$4</a>
+									<a href="#" class="btn btn-primary" style="width: 100%">$14.000</a>
 								</div>
 							</div>
 						</div>
@@ -174,6 +172,7 @@
 							<div class="card">
 								<img src="/images/platos-destacados/menu.jpeg" class="card-img-top" alt="..." />
 								<div class="card-body">
+									<p>Además, tenemos una gran cantidad de platos que debes probar</p>
 									<a href="#menu" class="btn btn-dark" style="width: 100%">
 										Ver menú completo
 									</a>
@@ -181,159 +180,30 @@
 							</div>
 						</div>
 					</div>
-					<hr>
 				</div>
 				<!-- Sección con servicios especiales para eventos y actividades grupales. -->
-				<section>
-					<div class="container">
+					<div class="container mt-5">
 						<div class="row">
 							<div class="col-12 col-lg-5">
 								<h2>Servicios especiales para eventos</h2>
 								<img src="/images/eventos/foto3@2x.png" class="img-fluid" alt="">
-								<p>Contamos con 3 servicios diferentes para la celebración de tu evento.</p>
+								<p>Contamos con 6 servicios diferentes para la celebración de tu evento.</p>
 							</div>
 							<div class="col-12 col-lg-7">
-								<div class="accordion" id="accordionExample">
-									<div class="accordion-item">
-										<h2 class="accordion-header" id="headingOne">
-											<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-												Celebración de cumpleaños
-											</button>
-										</h2>
-										<div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-											<div class="accordion-body">
-												<div class="row">
-													<div class="col-12 col-xl-6">
-														¿Se acerca tu <strong>cumpleaños</strong> y no sabes qué plan hacer para disfrutar con tus familiares y amigos? Podemos darte una buena alternativa: comer algo sumamente delicioso y disfrutar de un ambiente acogedor y familiar en PizzaCo.
-														<a href="#contact" class="btn btn-warning" style="width: 100%">
-															Más información
-														</a>
-													</div>
-													<div class="col-12 col-xl-6">
-														<img src="/images/eventos/cumpleaños.jpg" alt="cumpleaños" class="img-thumbnail">
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="accordion-item">
-										<h2 class="accordion-header" id="headingTwo">
-											<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-												Aniversarios
-											</button>
-										</h2>
-										<div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-											<div class="accordion-body">
-												<div class="row">
-													<div class="col-12 col-xl-6">
-														¿Se acerca tu <strong>cumpleaños</strong> y no sabes qué plan hacer para disfrutar con tus familiares y amigos? Podemos darte una buena alternativa: comer algo sumamente delicioso y disfrutar de un ambiente acogedor y familiar en PizzaCo.
-														<a href="#contact" class="btn btn-warning" style="width: 100%">
-															Más información
-														</a>
-													</div>
-													<div class="col-12 col-xl-6">
-														<img src="/images/eventos/aniversario.jpg" alt="cumpleaños" class="img-thumbnail">
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="accordion-item">
-										<h2 class="accordion-header" id="headingThree">
-											<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-												Fiestas infantiles
-											</button>
-										</h2>
-										<div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-											<div class="accordion-body">
-												<div class="row">
-													<div class="col-12 col-xl-6">
-														¿Se acerca tu <strong>cumpleaños</strong> y no sabes qué plan hacer para disfrutar con tus familiares y amigos? Podemos darte una buena alternativa: comer algo sumamente delicioso y disfrutar de un ambiente acogedor y familiar en PizzaCo.
-														<a href="#contact" class="btn btn-warning" style="width: 100%">
-															Más información
-														</a>
-													</div>
-													<div class="col-12 col-xl-6">
-														<img src="/images/eventos/fiesta-infantil.jpg" alt="cumpleaños" class="img-thumbnail">
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="accordion-item">
-										<h2 class="accordion-header" id="headingFour">
-											<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-												Declaraciones o propuestas
-											</button>
-										</h2>
-										<div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-											<div class="accordion-body">
-												<div class="row">
-													<div class="col-12 col-xl-6">
-														¿Se acerca tu <strong>cumpleaños</strong> y no sabes qué plan hacer para disfrutar con tus familiares y amigos? Podemos darte una buena alternativa: comer algo sumamente delicioso y disfrutar de un ambiente acogedor y familiar en PizzaCo.
-														<a href="#contact" class="btn btn-warning" style="width: 100%">
-															Más información
-														</a>
-													</div>
-													<div class="col-12 col-xl-6">
-														<img src="/images/eventos/declaracion.jpg" alt="cumpleaños" class="img-thumbnail">
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="accordion-item">
-										<h2 class="accordion-header" id="headingFive">
-											<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-												Despedidas
-											</button>
-										</h2>
-										<div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
-											<div class="accordion-body">
-												<div class="row">
-													<div class="col-12 col-xl-6">
-														¿Se acerca tu <strong>cumpleaños</strong> y no sabes qué plan hacer para disfrutar con tus familiares y amigos? Podemos darte una buena alternativa: comer algo sumamente delicioso y disfrutar de un ambiente acogedor y familiar en PizzaCo.
-														<a href="#contact" class="btn btn-warning" style="width: 100%">
-															Más información
-														</a>
-													</div>
-													<div class="col-12 col-xl-6">
-														<img src="/images/eventos/despedida.jpg" alt="cumpleaños" class="img-thumbnail">
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="accordion-item">
-										<h2 class="accordion-header" id="headingSix">
-											<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-												Cena con amigos
-											</button>
-										</h2>
-										<div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
-											<div class="accordion-body">
-												<div class="row">
-													<div class="col-12 col-xl-6">
-														¿Se acerca tu <strong>cumpleaños</strong> y no sabes qué plan hacer para disfrutar con tus familiares y amigos? Podemos darte una buena alternativa: comer algo sumamente delicioso y disfrutar de un ambiente acogedor y familiar en PizzaCo.
-														<a href="#contact" class="btn btn-warning" style="width: 100%">
-															Más información
-														</a>
-													</div>
-													<div class="col-12 col-xl-6">
-														<img src="/images/eventos/cena-con-amigos.jpg" alt="cumpleaños" class="img-thumbnail">
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
+								<ul class="list-group list-group-flush">
+									<li class="list-group-item">Celebración de cumpleaños</li>
+									<li class="list-group-item">Aniversario</li>
+									<li class="list-group-item">Fiestas infantiles</li>
+									<li class="list-group-item">Declaraciones o propuestas</li>
+									<li class="list-group-item">Despedidas</li>
+									<li class="list-group-item">Cena con amigos</li>
+								</ul>
+								<a class="btn btn-warning float-end" href="#services">Más información</a>
 							</div>
 						</div>
 					</div>
-				</section>
 				<!-- Sección de testimonios de algunos clientes, imagen y frase corta. -->
-				<section>
-					<div class="container">
+					<div class="container mt-5">
 						<div class="row">
 							<h2>Testimonios de clientes</h2>
 							<div class="col-12 col-md-6 col-xxl-3">
@@ -398,13 +268,12 @@
 							</div>
 						</div>
 					</div>
-				</section>
 			</section>
 			<!-- sobre nosotros -->
 			<section id="about">
 				<div class="container">
 					<h1>Sobre nosotros</h1>
-					<h2>PizzaCO</h2>
+					<hr>
 					<div class="row">
 						<div class="col-12 col-lg-4">
 							<img src="/images/logo.png" class="img-thumbnail" alt="">
@@ -415,106 +284,1164 @@
 					</div>
 				</div>
 			</section>
+			<!-- menu -->
 			<section id="menu">
-				<h1>Menú</h1>
-			</section>
-			<section id="services">
-				<h1>Servicios</h1>
-			</section>
-			<section id="contact">
-				<h1>Contáctenos</h1>
-				<!-- FORMULARIO -->
 				<div class="container">
-					<div class="row container-contacto">
-						
-
-						<div class="col-12 col-lg-6">
-							
-						<h1 class="display-5"> Formulario PizzaCO</h1>
-						
-						<p class="text-center">Mediante nuestro formulario de contacto puedes pedir información acerca de
-							nuestros servicios, hacer preguntas y tambien realizar solicitudes para que sean tomadas por nuestro personal.</p>
-
-							
+					<h1>Menú</h1>
+					<hr>
+				</div>
+				<div class="container menu-1">
+					<div class="row">
+						<!--PizzaCo-->
+						<div class="col-12 col-md-6 col-lg-4 col-xxl-3">
+							<div class="card cardPizza">
+								<img src="images/menu/descargar.jfif" class="card-img-top" height="200px" alt="...">
+								<div class="card-body">
+									<p class="card-text">Pizza de la casa elaborada con los mejores ingredientes</p>
+								</div>
+								<!-- Button trigger modal -->
+								<button type="button" class="btn btn-primary detallesPizza" data-bs-toggle="modal" data-bs-target="#pizzaCoModal">
+									PizzaCo
+								</button>
+								<!-- Modal -->
+								<div class="modal fade" id="pizzaCoModal" tabindex="-1" aria-labelledby="pizzaCoModalLabel" aria-hidden="true">
+									<div class="modal-dialog modal-xl">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h5 class="modal-title" id="staticBackdropLabel">Detalles</h5>
+												<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+											</div>
+											<div class="modal-body">
+												<!-- Detalles del Item -->
+												<div class="container ">
+													<div class="row">
+														<!-- Imagen -->
+														<div class="col-12 col-lg-6">
+															<img src="images/menu/descargar.jfif" class="img-thumbnail modalImgPizza" alt="...">
+														</div>
+														<!-- Mas Detalles -->
+														<div class="col-12 col-lg-6">
+															<h2 class="display-6">PizzaCO</h3>
+																<div class="accordion accordion-flush accordionPizza" id="accordionFlushExample">
+																	<div class="accordion-item">
+																		<h2 class="accordion-header" id="flush-headingOne">
+																			<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="true" aria-controls="flush-collapseOne">
+																				Reseña
+																			</button>
+																		</h2>
+																		<div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+																			<div class="accordion-body">Pizza de la casa elaborada con los mejores ingredientes</div>
+																		</div>
+																	</div>
+																	<div class="accordion-item">
+																		<h2 class="accordion-header" id="flush-headingTwo">
+																			<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+																				Ingredientes
+																			</button>
+																		</h2>
+																		<div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+																			<div class="accordion-body">
+																				<ul>
+																					<li>Carne de cerdo</li>
+																					<li>Carne de res</li>
+																					<li>Pollo</li>
+																					<li>Queso mozzarella</li>
+																					<li>Maíz tierno</li>
+																					<li>Salsa boloñesa</li>
+																				</ul>
+																			</div>
+																		</div>
+																	</div>
+																	<a class="btn btn-primary modalContactoPizza" data-bs-dismiss="modal" href="#contact" id="modalContactoPizza">Contáctenos</a>
+																</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
 						</div>
+						<!--PizzaRanchera-->
+						<div class="col-12 col-md-6 col-lg-4 col-xxl-3">
+							<div class="card cardPizza">
+								<img src="images/menu/41639.jpg" class="card-img-top" height="200px" alt="...">
+								<div class="card-body">
+									<p class="card-text">Pizza de la casa elaborada con los mejores ingredientes</p>
+								</div>
+								<!-- Button trigger modal -->
+								<button type="button" class="btn btn-primary detallesPizza" data-bs-toggle="modal" data-bs-target="#pizzaRancheraModal">
+									Pizza Ranchera
+								</button>
+								<!-- Modal -->
+								<div class="modal fade" id="pizzaRancheraModal" tabindex="-1" aria-labelledby="pizzaRancheraModalLabel" aria-hidden="true">
+									<div class="modal-dialog modal-xl">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h5 class="modal-title" id="staticBackdropLabel">Detalles</h5>
+												<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+											</div>
+											<div class="modal-body">
+												<!-- Detalles del Item -->
+												<div class="container ">
+													<div class="row">
+														<!-- Imagen -->
+														<div class="col-12 col-lg-6">
+															<img src="images/menu/41639.jpg" class="img-thumbnail modalImgPizza" alt="...">
+														</div>
+														<!-- Mas Detalles -->
+														<div class="col-12 col-lg-6">
+															<h2 class="display-6">Pizza Ranchera</h3>
+																<div class="accordion accordion-flush accordionPizza" id="accordionFlushExample">
+																	<div class="accordion-item">
+																		<h2 class="accordion-header" id="flush-headingOne">
+																			<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="true" aria-controls="flush-collapseOne">
+																				Reseña
+																			</button>
+																		</h2>
+																		<div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+																			<div class="accordion-body">Pizza de la casa elaborada con los mejores ingredientes</div>
+																		</div>
+																	</div>
+																	<div class="accordion-item">
+																		<h2 class="accordion-header" id="flush-headingTwo">
+																			<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+																				Ingredientes
+																			</button>
+																		</h2>
+																		<div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+																			<div class="accordion-body">
+																				<ul>
+																					<li>Carne de cerdo</li>
+																					<li>Carne de res</li>
+																					<li>Pollo</li>
+																					<li>Queso mozzarella</li>
+																					<li>Maíz tierno</li>
+																					<li>Salsa boloñesa</li>
+																				</ul>
+																			</div>
+																		</div>
+																	</div>
+																	<a class="btn btn-primary modalContactoPizza" href="#contact" id="modalContactoPizza">Contáctenos</a>
+																</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!--PizzaBacon-->
+						<div class="col-12 col-md-6 col-lg-4 col-xxl-3">
+							<div class="card cardPizza">
+								<img src="images/menu/450_1000.jpg" class="card-img-top" height="200px" alt="...">
+								<div class="card-body">
+									<p class="card-text">Pizza de la casa elaborada con los mejores ingredientes</p>
+								</div>
+								<!-- Button trigger modal -->
+								<button type="button" class="btn btn-primary detallesPizza" data-bs-toggle="modal" data-bs-target="#pizzaBaconModal">
+									Pizza Bacon
+								</button>
+								<!-- Modal -->
+								<div class="modal fade" id="pizzaBaconModal" tabindex="-1" aria-labelledby="pizzaBaconModalLabel" aria-hidden="true">
+									<div class="modal-dialog modal-xl">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h5 class="modal-title" id="staticBackdropLabel">Detalles</h5>
+												<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+											</div>
+											<div class="modal-body">
+												<!-- Detalles del Item -->
+												<div class="container ">
+													<div class="row">
+														<!-- Imagen -->
+														<div class="col-12 col-lg-6">
+															<img src="images/menu/450_1000.jpg" class="img-thumbnail modalImgPizza" alt="...">
+														</div>
+														<!-- Mas Detalles -->
+														<div class="col-12 col-lg-6">
+															<h2 class="display-6">Pizza Bacon</h3>
+																<div class="accordion accordion-flush accordionPizza" id="accordionFlushExample">
+																	<div class="accordion-item">
+																		<h2 class="accordion-header" id="flush-headingOne">
+																			<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="true" aria-controls="flush-collapseOne">
+																				Reseña
+																			</button>
+																		</h2>
+																		<div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+																			<div class="accordion-body">Pizza de la casa elaborada con los mejores ingredientes</div>
+																		</div>
+																	</div>
+																	<div class="accordion-item">
+																		<h2 class="accordion-header" id="flush-headingTwo">
+																			<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+																				Ingredientes
+																			</button>
+																		</h2>
+																		<div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+																			<div class="accordion-body">
+																				<ul>
+																					<li>Carne de cerdo</li>
+																					<li>Carne de res</li>
+																					<li>Pollo</li>
+																					<li>Queso mozzarella</li>
+																					<li>Maíz tierno</li>
+																					<li>Salsa boloñesa</li>
+																				</ul>
+																			</div>
+																		</div>
+																	</div>
+																	<a class="btn btn-primary modalContactoPizza" href="#contact" id="modalContactoPizza">Contáctenos</a>
+																</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!--PizzaVegetariana-->
+						<div class="col-12 col-md-6 col-lg-4 col-xxl-3">
+							<div class="card cardPizza">
+								<img src="images/menu/istockphoto-842082336-612x612.jpg" class="card-img-top" height="200px" alt="...">
+								<div class="card-body">
+									<p class="card-text">Pizza de la casa elaborada con los mejores ingredientes</p>
+								</div>
+								<!-- Button trigger modal -->
+								<button type="button" class="btn btn-primary detallesPizza" data-bs-toggle="modal" data-bs-target="#pizzaVegetarianaModal">
+									Pizza Vegetariana
+								</button>
+								<!-- Modal -->
+								<div class="modal fade" id="pizzaVegetarianaModal" tabindex="-1" aria-labelledby="pizzaVegetarianaModalLabel" aria-hidden="true">
+									<div class="modal-dialog modal-xl">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h5 class="modal-title" id="staticBackdropLabel">Detalles</h5>
+												<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+											</div>
+											<div class="modal-body">
+												<!-- Detalles del Item -->
+												<div class="container ">
+													<div class="row">
+														<!-- Imagen -->
+														<div class="col-12 col-lg-6">
+															<img src="images/menu/istockphoto-842082336-612x612.jpg" class="img-thumbnail modalImgPizza" alt="...">
+														</div>
+														<!-- Mas Detalles -->
+														<div class="col-12 col-lg-6">
+															<h2 class="display-6">Pizza Vegetariana</h3>
+																<div class="accordion accordion-flush accordionPizza" id="accordionFlushExample">
+																	<div class="accordion-item">
+																		<h2 class="accordion-header" id="flush-headingOne">
+																			<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="true" aria-controls="flush-collapseOne">
+																				Reseña
+																			</button>
+																		</h2>
+																		<div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+																			<div class="accordion-body">Pizza de la casa elaborada con los mejores ingredientes</div>
+																		</div>
+																	</div>
+																	<div class="accordion-item">
+																		<h2 class="accordion-header" id="flush-headingTwo">
+																			<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+																				Ingredientes
+																			</button>
+																		</h2>
+																		<div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+																			<div class="accordion-body">
+																				<ul>
+																					<li>Carne de cerdo</li>
+																					<li>Carne de res</li>
+																					<li>Pollo</li>
+																					<li>Queso mozzarella</li>
+																					<li>Maíz tierno</li>
+																					<li>Salsa boloñesa</li>
+																				</ul>
+																			</div>
+																		</div>
+																	</div>
+																	<a class="btn btn-primary modalContactoPizza" href="#contact" id="modalContactoPizza">Contáctenos</a>
+																</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container menu-2" hidden>
+					<div class="row">
+						<!--PizzaPocha-->
+						<div class="col-12 col-md-6 col-lg-4 col-xxl-3">
+							<div class="card cardPizza">
+								<img src="images/menu/images.jpg" class="card-img-top" height="200px" alt="...">
+								<div class="card-body">
+									<p class="card-text">Pizza de la casa elaborada con los mejores ingredientes</p>
+								</div>
+								<!-- Button trigger modal -->
+								<button type="button" class="btn btn-primary detallesPizza" data-bs-toggle="modal" data-bs-target="#pizzaPochaModal">
+									Pizza Pocha
+								</button>
+								<!-- Modal -->
+								<div class="modal fade" id="pizzaPochaModal" tabindex="-1" aria-labelledby="pizzaPochaModalLabel" aria-hidden="true">
+									<div class="modal-dialog modal-xl">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h5 class="modal-title" id="staticBackdropLabel">Detalles</h5>
+												<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+											</div>
+											<div class="modal-body">
+												<!-- Detalles del Item -->
+												<div class="container ">
+													<div class="row">
+														<!-- Imagen -->
+														<div class="col-12 col-lg-6">
+															<img src="images/menu/images.jpg" class="img-thumbnail modalImgPizza" alt="...">
+														</div>
+														<!-- Mas Detalles -->
+														<div class="col-12 col-lg-6">
+															<h2 class="display-6">Pizza Pocha</h3>
+																<div class="accordion accordion-flush accordionPizza" id="accordionFlushExample">
+																	<div class="accordion-item">
+																		<h2 class="accordion-header" id="flush-headingOne">
+																			<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+																				Reseña
+																			</button>
+																		</h2>
+																		<div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+																			<div class="accordion-body">Pizza de la casa elaborada con los mejores ingredientes</div>
+																		</div>
+																	</div>
+																	<div class="accordion-item">
+																		<h2 class="accordion-header" id="flush-headingTwo">
+																			<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+																				Ingredientes
+																			</button>
+																		</h2>
+																		<div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+																			<div class="accordion-body">
+																				<ul>
+																					<li>Carne de cerdo</li>
+																					<li>Carne de res</li>
+																					<li>Pollo</li>
+																					<li>Queso mozzarella</li>
+																					<li>Maíz tierno</li>
+																					<li>Salsa boloñesa</li>
+																				</ul>
+																			</div>
+																		</div>
+																	</div>
+																	<a class="btn btn-primary modalContactoPizza" href="#contact" id="modalContactoPizza">Contáctenos</a>
+																</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!--PizzaArgentina-->
+						<div class="col-12 col-md-6 col-lg-4 col-xxl-3">
+							<div class="card cardPizza">
+								<img src="images/menu/pizza argentna.jpg" class="card-img-top" height="200px" alt="...">
+								<div class="card-body">
+									<p class="card-text">Pizza de la casa elaborada con los mejores ingredientes</p>
+								</div>
+								<!-- Button trigger modal -->
+								<button type="button" class="btn btn-primary detallesPizza" data-bs-toggle="modal" data-bs-target="#pizzaArgentinaModal">
+									Pizza Argentina
+								</button>
+								<!-- Modal -->
+								<div class="modal fade" id="pizzaArgentinaModal" tabindex="-1" aria-labelledby="pizzaArgentinaModalLabel" aria-hidden="true">
+									<div class="modal-dialog modal-xl">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h5 class="modal-title" id="staticBackdropLabel">Detalles</h5>
+												<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+											</div>
+											<div class="modal-body">
+												<!-- Detalles del Item -->
+												<div class="container ">
+													<div class="row">
+														<!-- Imagen -->
+														<div class="col-12 col-lg-6">
+															<img src="images/menu/pizza argentna.jpg" class="img-thumbnail modalImgPizza" alt="...">
+														</div>
+														<!-- Mas Detalles -->
+														<div class="col-12 col-lg-6">
+															<h2 class="display-6">Pizza Argentina</h3>
+																<div class="accordion accordion-flush accordionPizza" id="accordionFlushExample">
+																	<div class="accordion-item">
+																		<h2 class="accordion-header" id="flush-headingOne">
+																			<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="true" aria-controls="flush-collapseOne">
+																				Reseña
+																			</button>
+																		</h2>
+																		<div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+																			<div class="accordion-body">Pizza de la casa elaborada con los mejores ingredientes</div>
+																		</div>
+																	</div>
+																	<div class="accordion-item">
+																		<h2 class="accordion-header" id="flush-headingTwo">
+																			<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+																				Ingredientes
+																			</button>
+																		</h2>
+																		<div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+																			<div class="accordion-body">
+																				<ul>
+																					<li>Carne de cerdo</li>
+																					<li>Carne de res</li>
+																					<li>Pollo</li>
+																					<li>Queso mozzarella</li>
+																					<li>Maíz tierno</li>
+																					<li>Salsa boloñesa</li>
+																				</ul>
+																			</div>
+																		</div>
+																	</div>
+																	<a class="btn btn-primary modalContactoPizza" href="#contact" id="modalContactoPizza">Contáctenos</a>
+																</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!--AlitasBBQ-->
+						<div class="col-12 col-md-6 col-lg-4 col-xxl-3">
+							<div class="card cardPizza">
+								<img src="images/menu/alitas-bbq-6-500x500.jpg" class="card-img-top" height="200px" alt="...">
+								<div class="card-body">
+									<p class="card-text">Pizza de la casa elaborada con los mejores ingredientes</p>
+								</div>
+								<!-- Button trigger modal -->
+								<button type="button" class="btn btn-primary detallesPizza" data-bs-toggle="modal" data-bs-target="#alitasBBQModal">
+									Alitas BBQ
+								</button>
+								<!-- Modal -->
+								<div class="modal fade" id="alitasBBQModal" tabindex="-1" aria-labelledby="alitasBBQModalLabel" aria-hidden="true">
+									<div class="modal-dialog modal-xl">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h5 class="modal-title" id="staticBackdropLabel">Detalles</h5>
+												<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+											</div>
+											<div class="modal-body">
+												<!-- Detalles del Item -->
+												<div class="container ">
+													<div class="row">
+														<!-- Imagen -->
+														<div class="col-12 col-lg-6">
+															<img src="images/menu/alitas-bbq-6-500x500.jpg" class="img-thumbnail modalImgPizza" alt="...">
+														</div>
+														<!-- Mas Detalles -->
+														<div class="col-12 col-lg-6">
+															<h2 class="display-6">Alitas BBQ</h3>
+																<div class="accordion accordion-flush accordionPizza" id="accordionFlushExample">
+																	<div class="accordion-item">
+																		<h2 class="accordion-header" id="flush-headingOne">
+																			<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="true" aria-controls="flush-collapseOne">
+																				Reseña
+																			</button>
+																		</h2>
+																		<div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+																			<div class="accordion-body">Pizza de la casa elaborada con los mejores ingredientes</div>
+																		</div>
+																	</div>
+																	<div class="accordion-item">
+																		<h2 class="accordion-header" id="flush-headingTwo">
+																			<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+																				Ingredientes
+																			</button>
+																		</h2>
+																		<div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+																			<div class="accordion-body">
+																				<ul>
+																					<li>Carne de cerdo</li>
+																					<li>Carne de res</li>
+																					<li>Pollo</li>
+																					<li>Queso mozzarella</li>
+																					<li>Maíz tierno</li>
+																					<li>Salsa boloñesa</li>
+																				</ul>
+																			</div>
+																		</div>
+																	</div>
+																	<a class="btn btn-primary modalContactoPizza" href="#contact" id="modalContactoPizza">Contáctenos</a>
+																</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!--Bastones de Queso-->
+						<div class="col-12 col-md-6 col-lg-4 col-xxl-3">
+							<div class="card cardPizza">
+								<img src="images/menu/bastonesdequeso.jpg" class="card-img-top" height="200px" alt="...">
+								<div class="card-body">
+									<p class="card-text">Pizza de la casa elaborada con los mejores ingredientes</p>
+								</div>
+								<!-- Button trigger modal -->
+								<button type="button" class="btn btn-primary detallesPizza" data-bs-toggle="modal" data-bs-target="#bastonesDeQuesoModal">
+									Bastones de Queso
+								</button>
+								<!-- Modal -->
+								<div class="modal fade" id="bastonesDeQuesoModal" tabindex="-1" aria-labelledby="bastonesDeQuesoModalLabel" aria-hidden="true">
+									<div class="modal-dialog modal-xl">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h5 class="modal-title" id="staticBackdropLabel">Detalles</h5>
+												<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+											</div>
+											<div class="modal-body">
+												<!-- Detalles del Item -->
+												<div class="container ">
+													<div class="row">
+														<!-- Imagen -->
+														<div class="col-12 col-lg-6">
+															<img src="images/menu/bastonesdequeso.jpg" class="img-thumbnail modalImgPizza" alt="...">
+														</div>
+														<!-- Mas Detalles -->
+														<div class="col-12 col-lg-6">
+															<h2 class="display-6">Bastones de Queso</h3>
+																<div class="accordion accordion-flush accordionPizza" id="accordionFlushExample">
+																	<div class="accordion-item">
+																		<h2 class="accordion-header" id="flush-headingOne">
+																			<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="true" aria-controls="flush-collapseOne">
+																				Reseña
+																			</button>
+																		</h2>
+																		<div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+																			<div class="accordion-body">Pizza de la casa elaborada con los mejores ingredientes</div>
+																		</div>
+																	</div>
+																	<div class="accordion-item">
+																		<h2 class="accordion-header" id="flush-headingTwo">
+																			<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+																				Ingredientes
+																			</button>
+																		</h2>
+																		<div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+																			<div class="accordion-body">
+																				<ul>
+																					<li>Carne de cerdo</li>
+																					<li>Carne de res</li>
+																					<li>Pollo</li>
+																					<li>Queso mozzarella</li>
+																					<li>Maíz tierno</li>
+																					<li>Salsa boloñesa</li>
+																				</ul>
+																			</div>
+																		</div>
+																	</div>
+																	<a class="btn btn-primary modalContactoPizza" href="#contact" id="modalContactoPizza">Contáctenos</a>
+																</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container menu-3" hidden>
+					<div class="row">
+						<!--PizzaDoble-->
+						<div class="col-12 col-md-6 col-lg-4 col-xxl-3">
+							<div class="card cardPizza">
+								<img src="images/menu/pizzax2.jpg" class="card-img-top" height="200px" alt="...">
+								<div class="card-body">
+									<p class="card-text">Pizza de la casa elaborada con los mejores ingredientes</p>
+								</div>
+								<!-- Button trigger modal -->
+								<button type="button" class="btn btn-primary detallesPizza" data-bs-toggle="modal" data-bs-target="#pizzaDobleModal">
+									Pizza Doble
+								</button>
+								<!-- Modal -->
+								<div class="modal fade" id="pizzaDobleModal" tabindex="-1" aria-labelledby="pizzaDobleModalLabel" aria-hidden="true">
+									<div class="modal-dialog modal-xl">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h5 class="modal-title" id="staticBackdropLabel">Detalles</h5>
+												<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+											</div>
+											<div class="modal-body">
+												<!-- Detalles del Item -->
+												<div class="container ">
+													<div class="row">
+														<!-- Imagen -->
+														<div class="col-12 col-lg-6">
+															<img src="images/menu/pizzax2.jpg" class="img-thumbnail modalImgPizza" alt="...">
+														</div>
+														<!-- Mas Detalles -->
+														<div class="col-12 col-lg-6">
+															<h2 class="display-6">Pizza Doble</h3>
+																<div class="accordion accordion-flush accordionPizza" id="accordionFlushExample">
+																	<div class="accordion-item">
+																		<h2 class="accordion-header" id="flush-headingOne">
+																			<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="true" aria-controls="flush-collapseOne">
+																				Reseña
+																			</button>
+																		</h2>
+																		<div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+																			<div class="accordion-body">Pizza de la casa elaborada con los mejores ingredientes</div>
+																		</div>
+																	</div>
+																	<div class="accordion-item">
+																		<h2 class="accordion-header" id="flush-headingTwo">
+																			<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+																				Ingredientes
+																			</button>
+																		</h2>
+																		<div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+																			<div class="accordion-body">
+																				<ul>
+																					<li>Carne de cerdo</li>
+																					<li>Carne de res</li>
+																					<li>Pollo</li>
+																					<li>Queso mozzarella</li>
+																					<li>Maíz tierno</li>
+																					<li>Salsa boloñesa</li>
+																				</ul>
+																			</div>
+																		</div>
+																	</div>
+																	<a class="btn btn-primary modalContactoPizza" href="#contact" id="modalContactoPizza">Contáctenos</a>
+																</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!--Ensalada-->
+						<div class="col-12 col-md-6 col-lg-4 col-xxl-3">
+							<div class="card cardPizza">
+								<img src="images/menu/ensalada.jpg" class="card-img-top" height="200px" alt="...">
+								<div class="card-body">
+									<p class="card-text">Pizza de la casa elaborada con los mejores ingredientes</p>
+								</div>
+								<!-- Button trigger modal -->
+								<button type="button" class="btn btn-primary detallesPizza" data-bs-toggle="modal" data-bs-target="#ensaladaModal">
+									Ensalada
+								</button>
+								<!-- Modal -->
+								<div class="modal fade" id="ensaladaModal" tabindex="-1" aria-labelledby="ensaladaModalLabel" aria-hidden="true">
+									<div class="modal-dialog modal-xl">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h5 class="modal-title" id="staticBackdropLabel">Detalles</h5>
+												<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+											</div>
+											<div class="modal-body">
+												<!-- Detalles del Item -->
+												<div class="container ">
+													<div class="row">
+														<!-- Imagen -->
+														<div class="col-12 col-lg-6">
+															<img src="images/menu/ensalada.jpg" class="img-thumbnail modalImgPizza" alt="...">
+														</div>
+														<!-- Mas Detalles -->
+														<div class="col-12 col-lg-6">
+															<h2 class="display-6">Ensalada</h3>
+																<div class="accordion accordion-flush accordionPizza" id="accordionFlushExample">
+																	<div class="accordion-item">
+																		<h2 class="accordion-header" id="flush-headingOne">
+																			<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="true" aria-controls="flush-collapseOne">
+																				Reseña
+																			</button>
+																		</h2>
+																		<div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+																			<div class="accordion-body">Pizza de la casa elaborada con los mejores ingredientes</div>
+																		</div>
+																	</div>
+																	<div class="accordion-item">
+																		<h2 class="accordion-header" id="flush-headingTwo">
+																			<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+																				Ingredientes
+																			</button>
+																		</h2>
+																		<div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+																			<div class="accordion-body">
+																				<ul>
+																					<li>Carne de cerdo</li>
+																					<li>Carne de res</li>
+																					<li>Pollo</li>
+																					<li>Queso mozzarella</li>
+																					<li>Maíz tierno</li>
+																					<li>Salsa boloñesa</li>
+																				</ul>
+																			</div>
+																		</div>
+																	</div>
+																	<a class="btn btn-primary modalContactoPizza" href="#contact" id="modalContactoPizza">Contáctenos</a>
+																</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!--Panes-->
+						<div class="col-12 col-md-6 col-lg-4 col-xxl-3">
+							<div class="card cardPizza">
+								<img src="images/menu/panes.jpg" class="card-img-top" height="200px" alt="...">
+								<div class="card-body">
+									<p class="card-text">Pizza de la casa elaborada con los mejores ingredientes</p>
+								</div>
+								<!-- Button trigger modal -->
+								<button type="button" class="btn btn-primary detallesPizza" data-bs-toggle="modal" data-bs-target="#panesModal">
+									Panes
+								</button>
+								<!-- Modal -->
+								<div class="modal fade" id="panesModal" tabindex="-1" aria-labelledby="panesModalLabel" aria-hidden="true">
+									<div class="modal-dialog modal-xl">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h5 class="modal-title" id="staticBackdropLabel">Detalles</h5>
+												<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+											</div>
+											<div class="modal-body">
+												<!-- Detalles del Item -->
+												<div class="container ">
+													<div class="row">
+														<!-- Imagen -->
+														<div class="col-12 col-lg-6">
+															<img src="images/menu/panes.jpg" class="img-thumbnail modalImgPizza" alt="...">
+														</div>
+														<!-- Mas Detalles -->
+														<div class="col-12 col-lg-6">
+															<h2 class="display-6">Panes</h3>
+																<div class="accordion accordion-flush accordionPizza" id="accordionFlushExample">
+																	<div class="accordion-item">
+																		<h2 class="accordion-header" id="flush-headingOne">
+																			<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="true" aria-controls="flush-collapseOne">
+																				Reseña
+																			</button>
+																		</h2>
+																		<div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+																			<div class="accordion-body">Pizza de la casa elaborada con los mejores ingredientes</div>
+																		</div>
+																	</div>
+																	<div class="accordion-item">
+																		<h2 class="accordion-header" id="flush-headingTwo">
+																			<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+																				Ingredientes
+																			</button>
+																		</h2>
+																		<div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+																			<div class="accordion-body">
+																				<ul>
+																					<li>Carne de cerdo</li>
+																					<li>Carne de res</li>
+																					<li>Pollo</li>
+																					<li>Queso mozzarella</li>
+																					<li>Maíz tierno</li>
+																					<li>Salsa boloñesa</li>
+																				</ul>
+																			</div>
+																		</div>
+																	</div>
+																	<a class="btn btn-primary modalContactoPizza" href="#contact" id="modalContactoPizza">Contáctenos</a>
+																</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!--PizzaHawaiana-->
+						<div class="col-12 col-md-6 col-lg-4 col-xxl-3">
+							<div class="card cardPizza">
+								<img src="images/menu/pizza hawaiana.jpg" class="card-img-top" height="200px" alt="...">
+								<div class="card-body">
+									<p class="card-text">Pizza de la casa elaborada con los mejores ingredientes</p>
+								</div>
+								<!-- Button trigger modal -->
+								<button type="button" class="btn btn-primary detallesPizza" data-bs-toggle="modal" data-bs-target="#pizzaHawaianaModal">
+									Pizza Hawaiana
+								</button>
+								<!-- Modal -->
+								<div class="modal fade" id="pizzaHawaianaModal" tabindex="-1" aria-labelledby="pizzaHawaianaModalLabel" aria-hidden="true">
+									<div class="modal-dialog modal-xl">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h5 class="modal-title" id="staticBackdropLabel">Detalles</h5>
+												<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+											</div>
+											<div class="modal-body">
+												<!-- Detalles del Item -->
+												<div class="container ">
+													<div class="row">
+														<!-- Imagen -->
+														<div class="col-12 col-lg-6">
+															<img src="images/menu/pizza hawaiana.jpg" class="img-thumbnail modalImgPizza" alt="...">
+														</div>
+														<!-- Mas Detalles -->
+														<div class="col-12 col-lg-6">
+															<h2 class="display-6">Pizza Hawaiana</h3>
+																<div class="accordion accordion-flush accordionPizza" id="accordionFlushExample">
+																	<div class="accordion-item">
+																		<h2 class="accordion-header" id="flush-headingOne">
+																			<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="true" aria-controls="flush-collapseOne">
+																				Reseña
+																			</button>
+																		</h2>
+																		<div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+																			<div class="accordion-body">Pizza de la casa elaborada con los mejores ingredientes</div>
+																		</div>
+																	</div>
+																	<div class="accordion-item">
+																		<h2 class="accordion-header" id="flush-headingTwo">
+																			<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+																				Ingredientes
+																			</button>
+																		</h2>
+																		<div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+																			<div class="accordion-body">
+																				<ul>
+																					<li>Carne de cerdo</li>
+																					<li>Carne de res</li>
+																					<li>Pollo</li>
+																					<li>Queso mozzarella</li>
+																					<li>Maíz tierno</li>
+																					<li>Salsa boloñesa</li>
+																				</ul>
+																			</div>
+																		</div>
+																	</div>
+																	<a class="btn btn-primary modalContactoPizza" href="#contact" id="modalContactoPizza">Contáctenos</a>
+																</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 
-						
+				<!-- Paginacion -->
+				<div class="container">
+					<nav aria-label="Page navigation example">
+						<ul class="pagination pagination-lg justify-content-center">
+							<li class="page-item"><a class="page-link menu-link-1" href="#menu">1</a></li>
+							<li class="page-item"><a class="page-link menu-link-2" href="#menu">2</a></li>
+							<li class="page-item"><a class="page-link menu-link-3" href="#menu">3</a></li>
+						</ul>
+					</nav>
+				</div>
+			</section>
+			<!-- servicios -->
+			<section id="services">
+				<div class="container">
+					<h1>Servicios especiales para eventos</h1>
+					<hr>
+					<div class="row">
+						<div class="col-12 col-lg-5">
+							<!-- <h2>Servicios especiales para eventos</h2> -->
+							<img src="/images/eventos/foto3@2x.png" class="img-fluid" alt="">
+							<p>Contamos con 6 servicios diferentes para la celebración de tu evento.</p>
+						</div>
+						<div class="col-12 col-lg-7">
+							<div class="accordion" id="accordionExample">
+								<div class="accordion-item">
+									<h2 class="accordion-header" id="headingOne">
+										<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+											Celebración de cumpleaños
+										</button>
+									</h2>
+									<div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+										<div class="accordion-body">
+											<div class="row">
+												<div class="col-12 col-xl-6">
+													¿Se acerca tu <strong>cumpleaños</strong> y no sabes qué plan hacer para disfrutar con tus familiares y amigos? Podemos darte una buena alternativa: comer algo sumamente delicioso y disfrutar de un ambiente acogedor y familiar en PizzaCo.
+													<a href="#contact" class="btn btn-warning" style="width: 100%">
+														Más información
+													</a>
+												</div>
+												<div class="col-12 col-xl-6">
+													<img src="/images/eventos/cumpleaños.jpg" alt="cumpleaños" class="img-thumbnail">
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="accordion-item">
+									<h2 class="accordion-header" id="headingTwo">
+										<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+											Aniversarios
+										</button>
+									</h2>
+									<div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+										<div class="accordion-body">
+											<div class="row">
+												<div class="col-12 col-xl-6">
+													¿Se acerca tu <strong>cumpleaños</strong> y no sabes qué plan hacer para disfrutar con tus familiares y amigos? Podemos darte una buena alternativa: comer algo sumamente delicioso y disfrutar de un ambiente acogedor y familiar en PizzaCo.
+													<a href="#contact" class="btn btn-warning" style="width: 100%">
+														Más información
+													</a>
+												</div>
+												<div class="col-12 col-xl-6">
+													<img src="/images/eventos/aniversario.jpg" alt="cumpleaños" class="img-thumbnail">
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="accordion-item">
+									<h2 class="accordion-header" id="headingThree">
+										<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+											Fiestas infantiles
+										</button>
+									</h2>
+									<div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+										<div class="accordion-body">
+											<div class="row">
+												<div class="col-12 col-xl-6">
+													¿Se acerca tu <strong>cumpleaños</strong> y no sabes qué plan hacer para disfrutar con tus familiares y amigos? Podemos darte una buena alternativa: comer algo sumamente delicioso y disfrutar de un ambiente acogedor y familiar en PizzaCo.
+													<a href="#contact" class="btn btn-warning" style="width: 100%">
+														Más información
+													</a>
+												</div>
+												<div class="col-12 col-xl-6">
+													<img src="/images/eventos/fiesta-infantil.jpg" alt="cumpleaños" class="img-thumbnail">
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="accordion-item">
+									<h2 class="accordion-header" id="headingFour">
+										<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+											Declaraciones o propuestas
+										</button>
+									</h2>
+									<div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+										<div class="accordion-body">
+											<div class="row">
+												<div class="col-12 col-xl-6">
+													¿Se acerca tu <strong>cumpleaños</strong> y no sabes qué plan hacer para disfrutar con tus familiares y amigos? Podemos darte una buena alternativa: comer algo sumamente delicioso y disfrutar de un ambiente acogedor y familiar en PizzaCo.
+													<a href="#contact" class="btn btn-warning" style="width: 100%">
+														Más información
+													</a>
+												</div>
+												<div class="col-12 col-xl-6">
+													<img src="/images/eventos/declaracion.jpg" alt="cumpleaños" class="img-thumbnail">
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="accordion-item">
+									<h2 class="accordion-header" id="headingFive">
+										<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+											Despedidas
+										</button>
+									</h2>
+									<div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+										<div class="accordion-body">
+											<div class="row">
+												<div class="col-12 col-xl-6">
+													¿Se acerca tu <strong>cumpleaños</strong> y no sabes qué plan hacer para disfrutar con tus familiares y amigos? Podemos darte una buena alternativa: comer algo sumamente delicioso y disfrutar de un ambiente acogedor y familiar en PizzaCo.
+													<a href="#contact" class="btn btn-warning" style="width: 100%">
+														Más información
+													</a>
+												</div>
+												<div class="col-12 col-xl-6">
+													<img src="/images/eventos/despedida.jpg" alt="cumpleaños" class="img-thumbnail">
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="accordion-item">
+									<h2 class="accordion-header" id="headingSix">
+										<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+											Cena con amigos
+										</button>
+									</h2>
+									<div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+										<div class="accordion-body">
+											<div class="row">
+												<div class="col-12 col-xl-6">
+													¿Se acerca tu <strong>cumpleaños</strong> y no sabes qué plan hacer para disfrutar con tus familiares y amigos? Podemos darte una buena alternativa: comer algo sumamente delicioso y disfrutar de un ambiente acogedor y familiar en PizzaCo.
+													<a href="#contact" class="btn btn-warning" style="width: 100%">
+														Más información
+													</a>
+												</div>
+												<div class="col-12 col-xl-6">
+													<img src="/images/eventos/cena-con-amigos.jpg" alt="cumpleaños" class="img-thumbnail">
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- contactenos -->
+			<section id="contact">
+				<div class="container">
+					<h1>Contáctenos</h1>
+					<hr>
+					<div class="row contacto">
 						<div class="col-12 col-lg-6">
-							
-							<form action="" enctype="multipart/form-data">
-								
+							<h1 class="display-5"> Formulario PizzaCO</h1>
+							<p class="text-center">Mediante nuestro formulario de contacto puedes pedir información acerca de
+								nuestros servicios, hacer preguntas y tambien realizar solicitudes para que sean tomadas por nuestro personal.</p>
+						</div>
+						<div class="col-12 col-lg-6">
+							<form action="https://formsubmit.co/0018413739c5b08780ee64283ee43b69" method="POST" enctype="multipart/form-data">
 								<!-- Campo para el Asunto del Contacto -->
 								<div class="form-group">
 									<div class="form-floating mb-3">
-										<input type="text" class="form-control" id="floatingInput" required minlength="10" maxlength="25">
+										<input name="asunto" type="text" class="form-control" id="floatingInput" required minlength="10" maxlength="25">
 										<label for="floatingInput">Asunto</label>
 									</div>
 								</div>
-								
+
 								<!-- Campo para el Nomnbre Completo -->
 								<div class="form-group">
-								<div class="form-floating mb-3">
-									<input type="text" class="form-control" id="floatingInput" required pattern="[a-z A-Z]{3,45}" oninvalid="setCustomValidity('Solo letras')">
-									<label for="floatingInput">Nombre Completo</label>
+									<div class="form-floating mb-3">
+										<input name="nombre" type="text" class="form-control" id="floatingInput" required pattern="[a-z A-Z]{3,45}" oninvalid="setCustomValidity('Solo letras')">
+										<label for="floatingInput">Nombre Completo</label>
+									</div>
 								</div>
-							</div>
-							
-							<!-- Campo par el Email -->
-							<div class="form-group">
-								<div class="form-floating mb-3">
-									<input type="email" class="form-control" id="floatingInput" required minlength="10" maxlength="25">
-									<label for="floatingInput">Correo Electronico</label>
-								</div>
-							</div>
 
-							<!-- Select para los Servicios -->
-							<div class="form-group">
-								<div class="form-floating">
-									<select class="form-select" id="floatingSelect" required>
-										<option value=""></option>
-										<option value="">Celebración de cumpleaños</option>
-										<option value="">Aniversarios</option>
-										<option value="">Fiestas infantiles</option>
-										<option value="">Declaraciones o propuestas</option>
-										<option value="">Despedidas</option>
-										<option value="">Cena con amigos</option>
-									</select>
-									<label for="floatingSelect">Selecciona un Servicio</label>
-								</div>
-							</div>
-
-							<!-- Campo de texto para los Comentarios -->
-							<div class="form-group">
-								<div class="form-floating">
-									<textarea class="form-control" id="floatingTextarea" style="height: 150px" minlength="10" maxlength="250" required></textarea>
-									<label for="floatingTextarea">Comentarios o solicitudes especiales</label>
-								</div>
-							</div>
-							
-							
-							<!-- Checkbox tratamiento de datos -->
-							<div class="form-check">
-								<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" required>
-								<label class="form-check-label" for="flexCheckDefault">
-									Acepto el Tratamiento de datos personales.
-								</label>
-								
-								<!-- Boton para envio del Formulario -->
+								<!-- Campo par el Email -->
 								<div class="form-group">
-									<input class="btn btn-primary" type="submit" id="btnEnviar" value="Enviar">
+									<div class="form-floating mb-3">
+										<input name="email" type="email" class="form-control" id="floatingInput" required minlength="10" maxlength="125">
+										<label for="floatingInput">Correo Electronico</label>
+									</div>
 								</div>
+
+								<!-- Select para los Servicios -->
+								<div class="form-group">
+									<div class="form-floating">
+										<select name="servicio" class="form-select" id="floatingSelect" required>
+											<option value=""></option>
+											<option value="celebración de cumpleaños">Celebración de cumpleaños</option>
+											<option value="aniversarios">Aniversarios</option>
+											<option value="fiestas infantiles">Fiestas infantiles</option>
+											<option value="declaraciones o propuestas">Declaraciones o propuestas</option>
+											<option value="despedidas">Despedidas</option>
+											<option value="cena con amigos">Cena con amigos</option>
+										</select>
+										<label for="floatingSelect">Selecciona un Servicio</label>
+									</div>
+								</div>
+
+								<!-- Campo de texto para los Comentarios -->
+								<div class="form-group">
+									<div class="form-floating">
+										<textarea name="comentarios" class="form-control" id="floatingTextarea" style="height: 150px" minlength="10" maxlength="250" required></textarea>
+										<label for="floatingTextarea">Comentarios o solicitudes especiales</label>
+									</div>
+								</div>
+
+
+								<!-- Checkbox tratamiento de datos -->
+								<div class="form-check">
+									<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" required>
+									<label class="form-check-label" for="flexCheckDefault">
+										Acepto el Tratamiento de datos personales.
+									</label>
+
+									<!-- Boton para envio del Formulario -->
+									<div class="form-group">
+										<input class="btn btn-primary" type="submit" id="btnEnviar" value="Enviar">
+									</div>
 							</form>
 						</div>
 					</div>
 				</div>
 			</section>
+			<!-- mapa del sitio -->
 			<section id="map">
-				<h1>Mapa del sitio</h1>
+				<div class="container">
+					<h1>Mapa del sitio</h1>
+					<hr>
+				</div>
 			</section>
 		</main>
-		<footer></footer>
-		
+		<footer>
+		</footer>
+
 		<script src="/js/index.js"></script>
 	</body>
-	
-	</html>
+
+</html>
